@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-char font[] = "Source Code Pro Semibold:size=11:antialias=true:autohint=true";
+char font[] = "Source Code Pro for Powerline:size=11:antialias=true:autohint=true";
 int borderpx = 2;
 
 /*
@@ -82,6 +82,7 @@ char termname[] = "st-256color";
  */
 static unsigned int tabspaces = 8;
 
+
 /* Terminal colors (16 first used in escape sequence) */
 const char *colorname[] = {
 
@@ -106,8 +107,8 @@ const char *colorname[] = {
   [15] = "#fdf6e3", /* white   */
 
   /* special colors */
-  [256] = "#fdf6e3", /* background */
-  [257] = "#586e75", /* foreground */
+  [256] = "#002b36", /* background */
+  [257] = "#93a1a1", /* foreground */
 };
 
 /*
